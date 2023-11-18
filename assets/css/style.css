@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.desktop-layout{
+
+
+    display: grid;
+
+    grid-template-areas: "nav-bar nav-bar"
+                         "selection selection"
+                         "card-container card-container"
+                         "control-page control-page"
+                         "footer footer";
+    
+}
+
+
+.nav-bar{
+    display: grid;
+    grid-area: nav-bar;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: spa;
+}
+
+
+.selection{
+    background-color: gray;
+    display: grid;
+    grid-area: selection ;
+}
+
+.selection-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.boton-select{
+    height: 25px;
+    width: 37em;
+    border-radius: 5px;
+    border: none;
+
+}
+.card-container{
+
+    display: grid;
+    grid-area: card-container ;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+    overflow: hidden;
+    height: 56vh;
+
+    grid-area: card-container ;
+
+}
+
+.card{
+    height: 490PX;
+    width: 400PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 4px 1px 2px rgb(241, 232, 232);
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.img-container{
+    width: 200px
+
+}
+
+.tesla{
+    width: 100%;
+    height: 100%;
+}
+
+.boton-mas{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+.control-page{
+  
+    display: grid;
+    grid-area: control-page ;
+}
+
+
+
+.control-page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: control-page ;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 4px 1px 2px rgb(241, 232, 232);
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    align-items: center;
+
+}
+
+.page a {
+    text-decoration: none;
+}
+
+.pie-control{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color:rgb(52, 52, 126);
+    display: grid;
+    grid-area: footer ;
+    font-weight: lighter;
+    color: white;
+    height: 17vh;
+}
+
+.p1{
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
